@@ -1,8 +1,8 @@
-import NavbarD from "./Components/NavbarD"
+import Navbar from "./Components/Navbar"
 export default function App() {
   return (
     <div>
-      <NavbarD/>
+      <Navbar/>
     </div>
   )
 }
