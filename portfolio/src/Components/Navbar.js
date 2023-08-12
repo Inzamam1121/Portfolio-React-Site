@@ -8,7 +8,7 @@ function Navbar() {
   const [navOpen,setNav] = useState(false);
 
   const NavOptions = [
-    {name:"Home",link:'/'},
+    {name:"Home",link:'/hero'},
     {name:"Projects",link:'/'},
     {name:"Clients",link:'/'},
     {name:"About",link:'/'},
@@ -20,7 +20,7 @@ function Navbar() {
   }
 
   return (
-    <div className="flex w-full bg-gray-900 justify-between flex-wrap p-3"> {/* Added justify-between and p-3 */}
+    <div className="flex w-full bg-gray-900 justify-between flex-wrap p-3 sticky top-0 z-50"> {/* Added justify-between and p-3 */}
       <div className="text-white flex items-center space-x-2">
         <img
           className="w-10 h-10 rounded-full"
